@@ -64,7 +64,7 @@ function generateRoutes(options) {
             const subHtmls = _dir !== static_dir && ext === ".html";
             const mainFiles = _dir === static_dir && ext !== ".html";
             const subFiles = _dir !== static_dir && ext !== ".html";
-            const _mimeType = (mimeCache[ext] ??= mimeType(ext));
+            const _mimeType = (mimeCache[ext] ??= mime.mimeType(ext));
             let url = "";
             if (mainIndex) {
                 url = rootpath;
