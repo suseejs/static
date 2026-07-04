@@ -1,0 +1,41 @@
+{
+  "name": "@suseejs/static",
+  "version": "0.1.0",
+  "description": "Static serve",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "./index.d.ts",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suseejs/static.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Pho Thin Mg",
+    "email": "phothinmg@disroot.org",
+    "url": "https://phothinmg.github.io/"
+  },
+  "license": "Apache-2.0",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/suseejs/static/issues"
+  },
+  "homepage": "https://github.com/suseejs/static#readme",
+  "dependencies": {
+    "@suseejs/mime": "^0.1.0",
+    "store": "^2.0.12"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "lib",
+    "index.js",
+    "index.mjs",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
